@@ -46,7 +46,7 @@ class Uploader:
                 title = self.title if self.title else os.path.basename(self.file),
                 description = 'تم رفع الفديو بواسطة بوت قناة زوامل انصار الله ,
                 category = 27,
-                privacyStatus = 'private'
+                privacyStatus = 'public'
             )
 
             youtube = Youtube(google)
