@@ -1,39 +1,41 @@
 {
-  "name": "اسم البوت",
+  "name": "YoutubeUploadBot",
   "description": "Telegram to YouTube Uploader Bot",
   "repository": "https://github.com/odysseusmax/utube",
   "logo": "https://github.com/odysseusmax/utube/blob/master/ss/logo.jpeg",
   "keywords": ["telegram", "youtube", "uploader"],
   "env": {
       "BOT_TOKEN": {
-      "description": "توكن البوت": ""
+      "description": "Your Bot token.",
+      "value": ""
     },
     "SESSION_NAME": {
-      "description": "معرف البوت بدون @.",
+      "description": "Your Bot's username.",
       "value": "",
       "required":false
     },
     "API_ID": {
-      "description": "تضع الايبي ايدي هنا.",
+      "description": "Your API_ID, Refer project docs.",
       "value": ""
     },
     "API_HASH": {
-      "description": "تضع الايبي هاش هنا.",
+      "description": "Your API_ID, Refer project docs.",
       "value": ""
     },
     "CLIENT_ID": {
-      "description": "ال clinet ايدي تضعه هنا .",
+      "description": "Your Google CLIENT_ID, Refer project docs.",
       "value": ""
     },
     "CLIENT_SECRET": {
-      "description": "رمز السر الclint  ضعه هنا .",
+      "description": "Your Google CLIENT_SECRET, Refer project docs.",
       "value": ""
     },
     "BOT_OWNER": {
-      "description": "ايدي صاحب البوت": ""
+      "description": "Your Telegram id.",
+      "value": ""
     },
     "AUTH_USERS": {
-      "description": "ايديات مشرفين البوت  مع وضع , ",
+      "description": "Telegram id of authorised users, separated by comma",
       "value": "",
       "required":false
     }
