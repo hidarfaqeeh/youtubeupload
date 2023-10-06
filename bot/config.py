@@ -4,7 +4,7 @@ class Config:
 
     BOT_TOKEN = os.environ.get("BOT_TOKEN")
     
-    SESSION_NAME = os.environ.get("SESSION_NAME", 'youtubeitbot')
+    SESSION_NAME = os.environ.get("SESSION_NAME", '')
 
     API_ID = int(os.environ.get("API_ID"))
 
@@ -16,7 +16,7 @@ class Config:
 
     BOT_OWNER = int(os.environ.get("BOT_OWNER"))
 
-    AUTH_USERS = [BOT_OWNER, 374321319] + [int(user.strip()) for user in os.environ.get("AUTH_USERS", '').split(",") if os.environ.get("AUTH_USERS")]
+    AUTH_USERS = [BOT_OWNER, ] + [int(user.strip()) for user in os.environ.get("AUTH_USERS", '').split(",") if os.environ.get("AUTH_USERS")]
 
     CRED_FILE = "auth_token.txt"
 
